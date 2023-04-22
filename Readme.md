@@ -43,3 +43,6 @@ File package.json ...
 yarn husky:prepare
 configura arquivo '.lintstagedrc.json'
 npx husky add .husky/pre-commit "yarn lint-staged" => configura o pre commit
+
+**TESTE COM JEST**
+yarn add -D jest @types/jest ts-jest
