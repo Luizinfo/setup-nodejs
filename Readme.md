@@ -46,3 +46,7 @@ npx husky add .husky/pre-commit "yarn lint-staged" => configura o pre commit
 
 **TESTE COM JEST**
 yarn add -D jest @types/jest ts-jest
+
+---
+
+npx husky add .husky/pre-push "yarn test:push" => configura o pre push
